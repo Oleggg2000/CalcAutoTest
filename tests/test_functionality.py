@@ -1,6 +1,6 @@
 import pytest
 import requests
-from CalcAutoTest.config import HOST, PORT
+from config import HOST, PORT
 
 
 # Validation input values. Only integers are allowed!

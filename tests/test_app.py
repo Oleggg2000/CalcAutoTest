@@ -1,6 +1,6 @@
 import requests
 from conftest import *
-from CalcAutoTest.config import HOST, PORT
+from config import HOST, PORT
 
 
 # Testing defaults parameters (start, stop, restart)

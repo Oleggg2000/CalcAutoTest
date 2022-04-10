@@ -1,6 +1,6 @@
 import pytest
 import requests
-from CalcAutoTest.config import HOST, PORT
+from config import HOST, PORT
 
 
 # Test GET method raising statusCode:5
