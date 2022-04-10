@@ -1,0 +1,100 @@
+{
+  "uid" : "49fa826837b7d90e",
+  "name" : "test_post_error_code_2[json3-addition]",
+  "fullName" : "tests.test_error_codes#test_post_error_code_2",
+  "historyId" : "4fd793345eb3a30b5cc59a96e68ddeba",
+  "time" : {
+    "start" : 1649600775052,
+    "stop" : 1649600775055,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup_app",
+    "time" : {
+      "start" : 1649600715356,
+      "stop" : 1649600720222,
+      "duration" : 4866
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_app::0",
+    "time" : {
+      "start" : 1649600775896,
+      "stop" : 1649600777616,
+      "duration" : 1720
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5964041eda4f3a20",
+      "name" : "!!!FINISH IT!!!",
+      "source" : "5964041eda4f3a20.gif",
+      "type" : "image/gif",
+      "size" : 28
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "ERROR=2 check"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_error_codes"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-60Q9K2PF"
+  }, {
+    "name" : "thread",
+    "value" : "11156-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_error_codes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "json",
+    "value" : "{'x': 5}"
+  }, {
+    "name" : "task",
+    "value" : "'addition'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "49fa826837b7d90e.json",
+  "parameterValues" : [ "{'x': 5}", "'addition'" ]
+}

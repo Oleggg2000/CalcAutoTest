@@ -1,0 +1,137 @@
+{
+  "uid" : "4a3a6256606f351f",
+  "name" : "test_remainder_good[-13--5]",
+  "fullName" : "tests.test_functionality#test_remainder_good",
+  "historyId" : "198bd323f73ee708461e0a81a795067b",
+  "time" : {
+    "start" : 1649601892687,
+    "stop" : 1649601892691,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup_app",
+    "time" : {
+      "start" : 1649601832363,
+      "stop" : 1649601837215,
+      "duration" : 4852
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_app::0",
+    "time" : {
+      "start" : 1649601892756,
+      "stop" : 1649601894516,
+      "duration" : 1760
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "438b6eba3afea2fd",
+      "name" : "!!!FINISH IT!!!",
+      "source" : "438b6eba3afea2fd.gif",
+      "type" : "image/gif",
+      "size" : 7151672
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "GOOD check"
+  }, {
+    "name" : "story",
+    "value" : "remainder"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_functionality"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-60Q9K2PF"
+  }, {
+    "name" : "thread",
+    "value" : "26948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "x",
+    "value" : "-13"
+  }, {
+    "name" : "y",
+    "value" : "-5"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "52e5eade8b2c3f31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601497159,
+        "stop" : 1649601497162,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "bb9ce27737047191",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649600775826,
+        "stop" : 1649600775829,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "6ce38e1ce9d6c8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649598827953,
+        "stop" : 1649598827959,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "d9d0d1ddbffc8e2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649597959792,
+        "stop" : 1649597959796,
+        "duration" : 4
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4a3a6256606f351f.json",
+  "parameterValues" : [ "-13", "-5" ]
+}

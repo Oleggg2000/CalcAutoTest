@@ -1,0 +1,206 @@
+{
+  "uid" : "dd8bc3e5d71e97e7",
+  "name" : "test_launching_with_params[Калькулятор остановлен1]",
+  "fullName" : "tests.test_app#test_launching_with_params",
+  "historyId" : "8fe865ee25785909783899012c15cdeb",
+  "time" : {
+    "start" : 1649600766374,
+    "stop" : 1649600770096,
+    "duration" : 3722
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup_app",
+    "time" : {
+      "start" : 1649600715356,
+      "stop" : 1649600720222,
+      "duration" : 4866
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup_app",
+    "time" : {
+      "start" : 1649600720241,
+      "stop" : 1649600721879,
+      "duration" : 1638
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup_for_CLI_test_launching_with_params",
+    "time" : {
+      "start" : 1649600764646,
+      "stop" : 1649600766373,
+      "duration" : 1727
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Запущен на 127.0.0.1:17678",
+      "time" : {
+        "start" : 1649600766374,
+        "stop" : 1649600770095,
+        "duration" : 3721
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c15dbc433f1cd612",
+      "name" : "stdout",
+      "source" : "c15dbc433f1cd612.txt",
+      "type" : "text/plain",
+      "size" : 388
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup_for_CLI_test_launching_with_params::0",
+    "time" : {
+      "start" : 1649600770100,
+      "stop" : 1649600774877,
+      "duration" : 4777
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup_app::0",
+    "time" : {
+      "start" : 1649600775896,
+      "stop" : 1649600777616,
+      "duration" : 1720
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5964041eda4f3a20",
+      "name" : "!!!FINISH IT!!!",
+      "source" : "5964041eda4f3a20.gif",
+      "type" : "image/gif",
+      "size" : 28
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  }, {
+    "name" : "setup_app::0",
+    "time" : {
+      "start" : 1649600777619,
+      "stop" : 1649600779318,
+      "duration" : 1699
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a72dabeaefd8f232",
+      "name" : "!!!FINISH IT!!!",
+      "source" : "a72dabeaefd8f232.gif",
+      "type" : "image/gif",
+      "size" : 28
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "CLI check"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('setup_for_CLI_test_launching_with_params')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_app"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-60Q9K2PF"
+  }, {
+    "name" : "thread",
+    "value" : "11156-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "host",
+    "value" : "'127.0.0.1'"
+  }, {
+    "name" : "port",
+    "value" : "'17678'"
+  }, {
+    "name" : "result",
+    "value" : "'Пытаемся остановить Веб-калькулятор\r\nВеб-калькулятор остановлен\r\n'"
+  }, {
+    "name" : "shell_command",
+    "value" : "'cd .. & webcalculator.exe stop'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('setup_for_CLI_test_launching_with_params')" ]
+  },
+  "source" : "dd8bc3e5d71e97e7.json",
+  "parameterValues" : [ "'127.0.0.1'", "'17678'", "'Пытаемся остановить Веб-калькулятор\r\nВеб-калькулятор остановлен\r\n'", "'cd .. & webcalculator.exe stop'" ]
+}

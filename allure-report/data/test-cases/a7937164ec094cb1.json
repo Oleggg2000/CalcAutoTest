@@ -1,0 +1,111 @@
+{
+  "uid" : "a7937164ec094cb1",
+  "name" : "test_value_error[-2147483649-1-remainder]",
+  "fullName" : "tests.test_functionality#test_value_error",
+  "historyId" : "31bc06f2a7500bb2f45de465bc8aaddd",
+  "time" : {
+    "start" : 1649600775324,
+    "stop" : 1649600775327,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "statusMessage" : "XPASS Ответ от сервера не соответствует ТЗ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup_app",
+    "time" : {
+      "start" : 1649600715356,
+      "stop" : 1649600720222,
+      "duration" : 4866
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_app::0",
+    "time" : {
+      "start" : 1649600775896,
+      "stop" : 1649600777616,
+      "duration" : 1720
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5964041eda4f3a20",
+      "name" : "!!!FINISH IT!!!",
+      "source" : "5964041eda4f3a20.gif",
+      "type" : "image/gif",
+      "size" : 28
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "ERROR=4 check"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail(reason='Ответ от сервера не соответствует ТЗ')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_functionality"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-60Q9K2PF"
+  }, {
+    "name" : "thread",
+    "value" : "11156-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "task",
+    "value" : "'remainder'"
+  }, {
+    "name" : "x",
+    "value" : "-2147483649"
+  }, {
+    "name" : "y",
+    "value" : "1"
+  } ],
+  "links" : [ {
+    "name" : "Bug",
+    "url" : "Bug",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail(reason='Ответ от сервера не соответствует ТЗ')" ]
+  },
+  "source" : "a7937164ec094cb1.json",
+  "parameterValues" : [ "'remainder'", "-2147483649", "1" ]
+}

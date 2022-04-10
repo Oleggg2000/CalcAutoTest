@@ -1,0 +1,132 @@
+{
+  "uid" : "acd40ddb493f9b02",
+  "name" : "Проверка работоспособности GET метода",
+  "fullName" : "tests.test_APImethods#test_get_methods",
+  "historyId" : "0eca90a02fde489131f46d304efe1c3b",
+  "time" : {
+    "start" : 1649601837215,
+    "stop" : 1649601837220,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup_app",
+    "time" : {
+      "start" : 1649601832363,
+      "stop" : 1649601837215,
+      "duration" : 4852
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_app::0",
+    "time" : {
+      "start" : 1649601892756,
+      "stop" : 1649601894516,
+      "duration" : 1760
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "438b6eba3afea2fd",
+      "name" : "!!!FINISH IT!!!",
+      "source" : "438b6eba3afea2fd.gif",
+      "type" : "image/gif",
+      "size" : 7151672
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Smoke tests"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_APImethods"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-60Q9K2PF"
+  }, {
+    "name" : "thread",
+    "value" : "26948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_APImethods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Полезная ссылочка)))",
+    "url" : "https://docs.pytest.org/en/6.2.x/example/markers.html",
+    "type" : "link"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "35ed212e0999a72d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601440410,
+        "stop" : 1649601440415,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "1a5cf77d08ddde96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649600720222,
+        "stop" : 1649600720227,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "490709c8c9783441",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649598769205,
+        "stop" : 1649598769210,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "6de793bac64c1a76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649597902123,
+        "stop" : 1649597902128,
+        "duration" : 5
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "acd40ddb493f9b02.json",
+  "parameterValues" : [ ]
+}

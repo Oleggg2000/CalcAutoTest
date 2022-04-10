@@ -1,0 +1,146 @@
+{
+  "uid" : "2909ed2b0d15475",
+  "name" : "test_zero_division_error[1-0-division]",
+  "fullName" : "tests.test_functionality#test_zero_division_error",
+  "historyId" : "2540d824f118bf9cde4633e76f8cd6d8",
+  "time" : {
+    "start" : 1649601892729,
+    "stop" : 1649601892733,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL Статус-код не соответствует ТЗ\n\nAssertionError: assert {'statusCode': 8, 'statusMessage': 'Ошибка вычисления'} == {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\n  Common items:\n  {'statusMessage': 'Ошибка вычисления'}\n  Differing items:\n  {'statusCode': 8} != {'statusCode': 1}\n  Full diff:\n  - {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\n  ?                ^\n  + {'statusCode': 8, 'statusMessage': 'Ошибка вычисления'}\n  ?                ^",
+  "statusTrace" : "x = 1, y = 0, task = 'division'\n\n    @allure.feature(\"ERROR=1 check\")\n    @pytest.mark.xfail(reason=\"Статус-код не соответствует ТЗ\")\n    @pytest.mark.parametrize(\"x, y, task\", [(1, 0, \"division\"), (1, 0, \"remainder\")])\n    def test_zero_division_error(x, y, task):\n        respond = requests.post(f\"http://{HOST}:{PORT}/api/{task}\", json={\"x\": x, \"y\": y})\n>       assert respond.json() == {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\nE       AssertionError: assert {'statusCode': 8, 'statusMessage': 'Ошибка вычисления'} == {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\nE         Common items:\nE         {'statusMessage': 'Ошибка вычисления'}\nE         Differing items:\nE         {'statusCode': 8} != {'statusCode': 1}\nE         Full diff:\nE         - {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\nE         ?                ^\nE         + {'statusCode': 8, 'statusMessage': 'Ошибка вычисления'}\nE         ?                ^\n\ntest_functionality.py:73: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup_app",
+    "time" : {
+      "start" : 1649601832363,
+      "stop" : 1649601837215,
+      "duration" : 4852
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_app::0",
+    "time" : {
+      "start" : 1649601892756,
+      "stop" : 1649601894516,
+      "duration" : 1760
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "438b6eba3afea2fd",
+      "name" : "!!!FINISH IT!!!",
+      "source" : "438b6eba3afea2fd.gif",
+      "type" : "image/gif",
+      "size" : 7151672
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "ERROR=1 check"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail(reason='Статус-код не соответствует ТЗ')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_functionality"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-60Q9K2PF"
+  }, {
+    "name" : "thread",
+    "value" : "26948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "task",
+    "value" : "'division'"
+  }, {
+    "name" : "x",
+    "value" : "1"
+  }, {
+    "name" : "y",
+    "value" : "0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c53b4d40eedecccd",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL Статус-код не соответствует ТЗ\n\nAssertionError: assert {'statusCode': 8, 'statusMessage': 'Ошибка вычисления'} == {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\n  Common items:\n  {'statusMessage': 'Ошибка вычисления'}\n  Differing items:\n  {'statusCode': 8} != {'statusCode': 1}\n  Full diff:\n  - {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\n  ?                ^\n  + {'statusCode': 8, 'statusMessage': 'Ошибка вычисления'}\n  ?                ^",
+      "time" : {
+        "start" : 1649601497200,
+        "stop" : 1649601497204,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "defbf6197df50b14",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL Статус-код не соответствует ТЗ\n\nAssertionError: assert {'statusCode': 8, 'statusMessage': 'Ошибка вычисления'} == {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\n  Common items:\n  {'statusMessage': 'Ошибка вычисления'}\n  Differing items:\n  {'statusCode': 8} != {'statusCode': 1}\n  Full diff:\n  - {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\n  ?                ^\n  + {'statusCode': 8, 'statusMessage': 'Ошибка вычисления'}\n  ?                ^",
+      "time" : {
+        "start" : 1649600775866,
+        "stop" : 1649600775870,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "e186368542edc7c2",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL Статус-код не соответствует ТЗ\n\nAssertionError: assert {'statusCode': 8, 'statusMessage': 'Ошибка вычисления'} == {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\n  Common items:\n  {'statusMessage': 'Ошибка вычисления'}\n  Differing items:\n  {'statusCode': 8} != {'statusCode': 1}\n  Full diff:\n  - {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\n  ?                ^\n  + {'statusCode': 8, 'statusMessage': 'Ошибка вычисления'}\n  ?                ^",
+      "time" : {
+        "start" : 1649598828011,
+        "stop" : 1649598828015,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "17bb19224b7a1dd5",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL Статус-код не соответствует ТЗ\n\nAssertionError: assert {'statusCode': 8, 'statusMessage': 'Ошибка вычисления'} == {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\n  Common items:\n  {'statusMessage': 'Ошибка вычисления'}\n  Differing items:\n  {'statusCode': 8} != {'statusCode': 1}\n  Full diff:\n  - {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\n  ?                ^\n  + {'statusCode': 8, 'statusMessage': 'Ошибка вычисления'}\n  ?                ^",
+      "time" : {
+        "start" : 1649597959843,
+        "stop" : 1649597959850,
+        "duration" : 7
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail(reason='Статус-код не соответствует ТЗ')" ]
+  },
+  "source" : "2909ed2b0d15475.json",
+  "parameterValues" : [ "'division'", "1", "0" ]
+}

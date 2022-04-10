@@ -1,0 +1,128 @@
+{
+  "uid" : "c5c5f46dbb5205d6",
+  "name" : "Проверка работоспособности OPTIONS метода",
+  "fullName" : "tests.test_APImethods#test_options_methods",
+  "historyId" : "cc395b16a668cd507b9cc61e1f92a064",
+  "time" : {
+    "start" : 1649601837229,
+    "stop" : 1649601837232,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup_app",
+    "time" : {
+      "start" : 1649601832363,
+      "stop" : 1649601837215,
+      "duration" : 4852
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_app::0",
+    "time" : {
+      "start" : 1649601892756,
+      "stop" : 1649601894516,
+      "duration" : 1760
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "438b6eba3afea2fd",
+      "name" : "!!!FINISH IT!!!",
+      "source" : "438b6eba3afea2fd.gif",
+      "type" : "image/gif",
+      "size" : 7151672
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Smoke tests"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_APImethods"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-60Q9K2PF"
+  }, {
+    "name" : "thread",
+    "value" : "26948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_APImethods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fbc8fbeaf9577845",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601440425,
+        "stop" : 1649601440429,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "de8d308a9c8482d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649600720236,
+        "stop" : 1649600720238,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "c0e81e1c62961263",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649598769220,
+        "stop" : 1649598769222,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "93b921fe54cd64ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649597902131,
+        "stop" : 1649597902134,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5c5f46dbb5205d6.json",
+  "parameterValues" : [ ]
+}
