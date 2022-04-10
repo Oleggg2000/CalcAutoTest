@@ -1,0 +1,2167 @@
+{
+  "f318d8f8c2b09ad9b35d409463f0601e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5501f69d47a1879c",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL Ответ от сервера не соответствует ТЗ\n\nAssertionError: assert {'result': 2147483648, 'statusCode': 0} == {'statusCode': 4, 'statusMessage': 'Превышены максимальные значения параметров'}\n  Differing items:\n  {'statusCode': 0} != {'statusCode': 4}\n  Left contains 1 more item:\n  {'result': 2147483648}\n  Right contains 1 more item:\n  {'statusMessage': 'Превышены максимальные значения параметров'}\n  Full diff:\n  - {'statusCode': 4, 'statusMessage': 'Превышены максимальные значения параметров'}\n  + {'result': 2147483648, 'statusCode': 0}",
+      "time" : {
+        "start" : 1649601892339,
+        "stop" : 1649601892342,
+        "duration" : 3
+      }
+    } ]
+  },
+  "6ed25abed4d8e7b7a387e43dbec3a738" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d297e7ae3e1e6886",
+      "status" : "passed",
+      "statusDetails" : "XPASS Ответ от сервера не соответствует ТЗ",
+      "time" : {
+        "start" : 1649601892448,
+        "stop" : 1649601892451,
+        "duration" : 3
+      }
+    } ]
+  },
+  "37a206ad47e4164cfde954c5b6095e6d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3adafd6975a49410",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891907,
+        "stop" : 1649601891910,
+        "duration" : 3
+      }
+    } ]
+  },
+  "d1ae1d9495a5b1209544aab9bd24d4d3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f06bee0fa6d49ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892511,
+        "stop" : 1649601892514,
+        "duration" : 3
+      }
+    } ]
+  },
+  "ee5c1b5e8a9ace4ed0c782be81f9a6e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "790ff872cfb5b6cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891943,
+        "stop" : 1649601891947,
+        "duration" : 4
+      }
+    } ]
+  },
+  "8bd6c8bda953efcb73e41a73926ca703" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6161a6e4bc95d42a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891781,
+        "stop" : 1649601891784,
+        "duration" : 3
+      }
+    } ]
+  },
+  "e72ea96c40a0358cb9219013ed9fe042" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "38c5b638871c7ac2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891876,
+        "stop" : 1649601891878,
+        "duration" : 2
+      }
+    } ]
+  },
+  "3e91346a79a1f9f9a7e2e98265bf016e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c5ad54f194e1d934",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891844,
+        "stop" : 1649601891847,
+        "duration" : 3
+      }
+    } ]
+  },
+  "31bc06f2a7500bb2f45de465bc8aaddd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d4eff283bade590",
+      "status" : "passed",
+      "statusDetails" : "XPASS Ответ от сервера не соответствует ТЗ",
+      "time" : {
+        "start" : 1649601892205,
+        "stop" : 1649601892210,
+        "duration" : 5
+      }
+    } ]
+  },
+  "198bd323f73ee708461e0a81a795067b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a3a6256606f351f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892687,
+        "stop" : 1649601892691,
+        "duration" : 4
+      }
+    } ]
+  },
+  "6f896f6c21588584f43e58693947b57e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f99e7167d3c4e6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892496,
+        "stop" : 1649601892498,
+        "duration" : 2
+      }
+    } ]
+  },
+  "27fa6181c06ec208e482d302daf19390" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e1e355d1cc322201",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892084,
+        "stop" : 1649601892087,
+        "duration" : 3
+      }
+    } ]
+  },
+  "39d8ab93ac10ca7d9f6a45e4abe40ee9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "955384f4d03b98a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892606,
+        "stop" : 1649601892609,
+        "duration" : 3
+      }
+    } ]
+  },
+  "ce33146d66ead9357056ab2e567cf086" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f6a3eb14e82d278d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892549,
+        "stop" : 1649601892552,
+        "duration" : 3
+      }
+    } ]
+  },
+  "b9c04056b9e4de7b1600265621798422" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a1a395ec0f7a1568",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892647,
+        "stop" : 1649601892650,
+        "duration" : 3
+      }
+    } ]
+  },
+  "4ab2298c331d1f3a2e9945e821d2e55d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fa2948d9ae5fbab3",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL Ответ от сервера не соответствует ТЗ\n\nAssertionError: assert {'result': 2147483649, 'statusCode': 0} == {'statusCode': 4, 'statusMessage': 'Превышены максимальные значения параметров'}\n  Differing items:\n  {'statusCode': 0} != {'statusCode': 4}\n  Left contains 1 more item:\n  {'result': 2147483649}\n  Right contains 1 more item:\n  {'statusMessage': 'Превышены максимальные значения параметров'}\n  Full diff:\n  - {'statusCode': 4, 'statusMessage': 'Превышены максимальные значения параметров'}\n  + {'result': 2147483649, 'statusCode': 0}",
+      "time" : {
+        "start" : 1649601892215,
+        "stop" : 1649601892219,
+        "duration" : 4
+      }
+    } ]
+  },
+  "3c41d472b3c4192d75aa7ce72e5bfe8e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b4343de52a40cfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892670,
+        "stop" : 1649601892675,
+        "duration" : 5
+      }
+    } ]
+  },
+  "4c4d2c9eced9dfa161de0dd196102e3f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "163f1d389695fbb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892614,
+        "stop" : 1649601892616,
+        "duration" : 2
+      }
+    } ]
+  },
+  "8628f9d9cd602aacf22b592e54054762" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3f363b32216642c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891803,
+        "stop" : 1649601891806,
+        "duration" : 3
+      }
+    } ]
+  },
+  "a51172bb7ccec3ff577f13c79d58a668" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2c6dc1e41a841a99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891914,
+        "stop" : 1649601891918,
+        "duration" : 4
+      }
+    } ]
+  },
+  "c1a45df94f3e96d27c7bfb7ad13d3b62" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dfbab2e2810c902e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892111,
+        "stop" : 1649601892115,
+        "duration" : 4
+      }
+    } ]
+  },
+  "41d9833e34ac41dba8f854465ef19f10" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a0d9be98786e0cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891968,
+        "stop" : 1649601891970,
+        "duration" : 2
+      }
+    } ]
+  },
+  "0d8ce693f642b6496dea21a9baf482aa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "869e3b3bbe1d381c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892006,
+        "stop" : 1649601892008,
+        "duration" : 2
+      }
+    } ]
+  },
+  "5209c459bcc68221a96e64da9bdde9ca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "72972bab26a82c4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601838883,
+        "stop" : 1649601840543,
+        "duration" : 1660
+      }
+    } ]
+  },
+  "b32384acbff85e0bf31135de59c7bcd5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b59f9bb3e6394b7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892471,
+        "stop" : 1649601892474,
+        "duration" : 3
+      }
+    } ]
+  },
+  "8fe865ee25785909783899012c15cdeb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c6aad3519597042",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601883120,
+        "stop" : 1649601886893,
+        "duration" : 3773
+      }
+    } ]
+  },
+  "ff3633a2635b030a9c3e64309c09c090" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e0c72502d2e7d9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892023,
+        "stop" : 1649601892025,
+        "duration" : 2
+      }
+    } ]
+  },
+  "b5f8c93752263896a55dc0f0354960c2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "58481945854888d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892056,
+        "stop" : 1649601892059,
+        "duration" : 3
+      }
+    } ]
+  },
+  "7acc49fb8f7f9f0bef88614b3419535c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f48286bf7cde7a33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891851,
+        "stop" : 1649601891855,
+        "duration" : 4
+      }
+    } ]
+  },
+  "f5056ddb70f9d61da727ed9a9168c91d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "379fff2d6f622e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892101,
+        "stop" : 1649601892104,
+        "duration" : 3
+      }
+    } ]
+  },
+  "711fccd230206d2f286d7da1f2eacfe4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d799e3198eabe779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891765,
+        "stop" : 1649601891769,
+        "duration" : 4
+      }
+    } ]
+  },
+  "b9a79f7b60ef1e5c7406a1a811bc2642" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7eb04791368679de",
+      "status" : "passed",
+      "statusDetails" : "XPASS Ответ от сервера не соответствует ТЗ",
+      "time" : {
+        "start" : 1649601892393,
+        "stop" : 1649601892397,
+        "duration" : 4
+      }
+    } ]
+  },
+  "c85923a36c67cd97b395360d3e779212" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f40be7b3feaf17da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892638,
+        "stop" : 1649601892641,
+        "duration" : 3
+      }
+    } ]
+  },
+  "1eb69481f38e1eb069c617697b74ab90" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d66a3cb935190e6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892066,
+        "stop" : 1649601892068,
+        "duration" : 2
+      }
+    } ]
+  },
+  "dbb1413392d01886c73cf5429009baed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c3035bedcdffe8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892030,
+        "stop" : 1649601892034,
+        "duration" : 4
+      }
+    } ]
+  },
+  "eda8c2e38f62994e08af56bb91b4195e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e18509b08ae19ae2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892092,
+        "stop" : 1649601892094,
+        "duration" : 2
+      }
+    } ]
+  },
+  "87d74cedbbe17652a34b19505c6cc699" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "38e2df1e1cd4c234",
+      "status" : "passed",
+      "statusDetails" : "XPASS Ответ от сервера не соответствует ТЗ",
+      "time" : {
+        "start" : 1649601892179,
+        "stop" : 1649601892183,
+        "duration" : 4
+      }
+    } ]
+  },
+  "02ef044f92596fc06d848df3f0cadcba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e13c69f61e2c4e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891898,
+        "stop" : 1649601891901,
+        "duration" : 3
+      }
+    } ]
+  },
+  "3cdbae74e4730cf3ae2bd7bc61185fc2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f284ed6574f309e9",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL Статус-код не соответствует ТЗ\n\nAssertionError: assert {'statusCode': 8, 'statusMessage': 'Ошибка вычисления'} == {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\n  Common items:\n  {'statusMessage': 'Ошибка вычисления'}\n  Differing items:\n  {'statusCode': 8} != {'statusCode': 1}\n  Full diff:\n  - {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\n  ?                ^\n  + {'statusCode': 8, 'statusMessage': 'Ошибка вычисления'}\n  ?                ^",
+      "time" : {
+        "start" : 1649601892743,
+        "stop" : 1649601892748,
+        "duration" : 5
+      }
+    } ]
+  },
+  "d9b15dbef7a20e37844e8b1bb780c526" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "75120b97e784eeed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892631,
+        "stop" : 1649601892633,
+        "duration" : 2
+      }
+    } ]
+  },
+  "0c8608761b03a007e59f13c781a01a81" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f56e679d39fe1000",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892039,
+        "stop" : 1649601892042,
+        "duration" : 3
+      }
+    } ]
+  },
+  "2bb1e3c3e3966721ab07af7ad6b2be3e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3da6c97646aff9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892153,
+        "stop" : 1649601892156,
+        "duration" : 3
+      }
+    } ]
+  },
+  "c7db1f2107829558e8049add5ea12915" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e7b4e79e297b11d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892679,
+        "stop" : 1649601892682,
+        "duration" : 3
+      }
+    } ]
+  },
+  "e4bf27087fad8258ae8bc216b2a8bd54" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "12e7f7a305567588",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892598,
+        "stop" : 1649601892600,
+        "duration" : 2
+      }
+    } ]
+  },
+  "97ddf06db5163aa172460e2cbddc8ed8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ebb7dffbd17190b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892136,
+        "stop" : 1649601892139,
+        "duration" : 3
+      }
+    } ]
+  },
+  "cc395b16a668cd507b9cc61e1f92a064" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c5c5f46dbb5205d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601837229,
+        "stop" : 1649601837232,
+        "duration" : 3
+      }
+    } ]
+  },
+  "3026661b57e653475a4bde66e995c729" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9b4464d1390027f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891815,
+        "stop" : 1649601891818,
+        "duration" : 3
+      }
+    } ]
+  },
+  "13bfa993a24304c1080f3661e07269bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e304d9a0054f985e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892703,
+        "stop" : 1649601892707,
+        "duration" : 4
+      }
+    } ]
+  },
+  "d6117f9fe84af6d865f257375dbabdb9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5ada0d15cb3cc98b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891808,
+        "stop" : 1649601891812,
+        "duration" : 4
+      }
+    } ]
+  },
+  "cadcd17e8e19030525d83fd89e425133" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "726cb60cadc447b6",
+      "status" : "passed",
+      "statusDetails" : "XPASS Ответ от сервера не соответствует ТЗ",
+      "time" : {
+        "start" : 1649601892198,
+        "stop" : 1649601892201,
+        "duration" : 3
+      }
+    } ]
+  },
+  "a820fb4696c3c05cd8506a6d71c536ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1f4b94ac3d2cfd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891837,
+        "stop" : 1649601891839,
+        "duration" : 2
+      }
+    } ]
+  },
+  "277fdf3f618d82e751307c223c8816fa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b75fb87e55577d4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891959,
+        "stop" : 1649601891962,
+        "duration" : 3
+      }
+    } ]
+  },
+  "7279e616c887d47511ee8c8a2dca6a7c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3d49a9b9e7036c26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601854165,
+        "stop" : 1649601859103,
+        "duration" : 4938
+      }
+    } ]
+  },
+  "a79d8fcaeb435283da08ac347a9343d2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "949f3d7123ac5a40",
+      "status" : "passed",
+      "statusDetails" : "XPASS Ответ от сервера не соответствует ТЗ",
+      "time" : {
+        "start" : 1649601892404,
+        "stop" : 1649601892407,
+        "duration" : 3
+      }
+    } ]
+  },
+  "10f5e0ad89868b5c5021190d3b1241f5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6f77223d757696de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601848484,
+        "stop" : 1649601852279,
+        "duration" : 3795
+      }
+    } ]
+  },
+  "f2c398d225479889b8c7c6656c2e972e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "56bc9db8b8fc5268",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891859,
+        "stop" : 1649601891862,
+        "duration" : 3
+      }
+    } ]
+  },
+  "f7e46a612b95e3b3ca6a3aa6e1392dcf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "149633c64718a5a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891884,
+        "stop" : 1649601891887,
+        "duration" : 3
+      }
+    } ]
+  },
+  "57dfedd5a8c87398d70ef26ea057d4af" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3571d74998ffb845",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892171,
+        "stop" : 1649601892174,
+        "duration" : 3
+      }
+    } ]
+  },
+  "da15d0fab0f49bd721d4f2dd003c2673" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d33d00f931ed0561",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892721,
+        "stop" : 1649601892724,
+        "duration" : 3
+      }
+    } ]
+  },
+  "4fd793345eb3a30b5cc59a96e68ddeba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dc7d98fcf6b8d3aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891936,
+        "stop" : 1649601891938,
+        "duration" : 2
+      }
+    } ]
+  },
+  "0eca90a02fde489131f46d304efe1c3b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "acd40ddb493f9b02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601837215,
+        "stop" : 1649601837220,
+        "duration" : 5
+      }
+    } ]
+  },
+  "38781c196246d1920de6dd839bca76df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a8ab50f44b679427",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892162,
+        "stop" : 1649601892165,
+        "duration" : 3
+      }
+    } ]
+  },
+  "79593964fee7ec049cdd0be5c97e9efb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ab1b51330347516",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891996,
+        "stop" : 1649601892000,
+        "duration" : 4
+      }
+    } ]
+  },
+  "f51965efd00a2369aa6f0ec505399e9d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "792bf180dba3f9e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601837223,
+        "stop" : 1649601837226,
+        "duration" : 3
+      }
+    } ]
+  },
+  "6ce2739efa5f2be065e7450a031a0f9c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2aa11607591cb7ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892487,
+        "stop" : 1649601892491,
+        "duration" : 4
+      }
+    } ]
+  },
+  "d9239af06bd3bb1e4e3901c8d75e425e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8685fe6a51edb6c3",
+      "status" : "passed",
+      "statusDetails" : "XPASS Ответ от сервера не соответствует ТЗ",
+      "time" : {
+        "start" : 1649601892188,
+        "stop" : 1649601892192,
+        "duration" : 4
+      }
+    } ]
+  },
+  "41bf858ced67f3d2ad4dfaa71dc456f0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "35ef5a1ad0f30c73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891788,
+        "stop" : 1649601891792,
+        "duration" : 4
+      }
+    } ]
+  },
+  "33a8c33e009d1800eced0b2c1a8cdd77" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "60900385e89fa296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601840547,
+        "stop" : 1649601846655,
+        "duration" : 6108
+      }
+    } ]
+  },
+  "194828347b811265559fde12685a4cbe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "983fba2055af6e9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892504,
+        "stop" : 1649601892507,
+        "duration" : 3
+      }
+    } ]
+  },
+  "961a20cebc0708c6518a24c797778349" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8a2413e452f72327",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891950,
+        "stop" : 1649601891954,
+        "duration" : 4
+      }
+    } ]
+  },
+  "78803f1cb346bf327ed0d46665ece3c5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "781eea18daff305c",
+      "status" : "passed",
+      "statusDetails" : "XPASS Ответ от сервера не соответствует ТЗ",
+      "time" : {
+        "start" : 1649601892429,
+        "stop" : 1649601892432,
+        "duration" : 3
+      }
+    } ]
+  },
+  "2a3dd407b9a7851529400e72f6d8887e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f670a59e76b8784c",
+      "status" : "passed",
+      "statusDetails" : "XPASS Ответ от сервера не соответствует ТЗ",
+      "time" : {
+        "start" : 1649601892412,
+        "stop" : 1649601892416,
+        "duration" : 4
+      }
+    } ]
+  },
+  "781e2d0f80d07206a7b49543c6d52502" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9a1fb0b593e63c1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892074,
+        "stop" : 1649601892076,
+        "duration" : 2
+      }
+    } ]
+  },
+  "cbe860bb9dbd083005ad3df99fb16853" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e04df771f09810d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892711,
+        "stop" : 1649601892714,
+        "duration" : 3
+      }
+    } ]
+  },
+  "20cbfdc874209df51e440822acb73432" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7a57bcb929739c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891868,
+        "stop" : 1649601891871,
+        "duration" : 3
+      }
+    } ]
+  },
+  "dc8864223e634c915c8f0263609295e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c259c9cdf2a2cfa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892119,
+        "stop" : 1649601892122,
+        "duration" : 3
+      }
+    } ]
+  },
+  "80850e1ad32e0e1e1b0e6c0d08cd96da" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "75f3bc5449517418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892622,
+        "stop" : 1649601892624,
+        "duration" : 2
+      }
+    } ]
+  },
+  "0b1b585ac0b86c36537d7d42c1029513" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b4d1a2869aba30be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892145,
+        "stop" : 1649601892148,
+        "duration" : 3
+      }
+    } ]
+  },
+  "cd476985a00747774bd452c07d9a8289" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5b74b2defbf5ede9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891987,
+        "stop" : 1649601891990,
+        "duration" : 3
+      }
+    } ]
+  },
+  "19a155b5aaa6dbec3e18dd21a26e003d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "498d418db8d50006",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892582,
+        "stop" : 1649601892584,
+        "duration" : 2
+      }
+    } ]
+  },
+  "2540d824f118bf9cde4633e76f8cd6d8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2909ed2b0d15475",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL Статус-код не соответствует ТЗ\n\nAssertionError: assert {'statusCode': 8, 'statusMessage': 'Ошибка вычисления'} == {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\n  Common items:\n  {'statusMessage': 'Ошибка вычисления'}\n  Differing items:\n  {'statusCode': 8} != {'statusCode': 1}\n  Full diff:\n  - {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\n  ?                ^\n  + {'statusCode': 8, 'statusMessage': 'Ошибка вычисления'}\n  ?                ^",
+      "time" : {
+        "start" : 1649601892729,
+        "stop" : 1649601892733,
+        "duration" : 4
+      }
+    } ]
+  },
+  "ede25263b43c412f4999d690b15cbcf9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "66ee94a9320172ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892664,
+        "stop" : 1649601892667,
+        "duration" : 3
+      }
+    } ]
+  },
+  "3cf74624a62c768426b473677ff9954f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "17da2b9cd263c598",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892480,
+        "stop" : 1649601892482,
+        "duration" : 2
+      }
+    } ]
+  },
+  "4faa0055852a54d41df768dfad01622e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5439b64b17628a9a",
+      "status" : "passed",
+      "statusDetails" : "XPASS Ответ от сервера не соответствует ТЗ",
+      "time" : {
+        "start" : 1649601892421,
+        "stop" : 1649601892423,
+        "duration" : 2
+      }
+    } ]
+  },
+  "99cb50088cefbc4395e8ad50f9aaf348" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84872d776c59ad21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892013,
+        "stop" : 1649601892016,
+        "duration" : 3
+      }
+    } ]
+  },
+  "443bc64e8f482983bb7148d4f90be064" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "80cbec8eab5050ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892463,
+        "stop" : 1649601892466,
+        "duration" : 3
+      }
+    } ]
+  },
+  "5a2df08f246fa1c21e545a5619dbd606" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "202bb65a9a45f4fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891823,
+        "stop" : 1649601891825,
+        "duration" : 2
+      }
+    } ]
+  },
+  "98eca68d1731bc0808afd4a19db70d4c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c74b1cdb4a6acd11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892520,
+        "stop" : 1649601892522,
+        "duration" : 2
+      }
+    } ]
+  },
+  "20cb898b34501ecd39cda921e90ee5a3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ba707dc107cb84fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892049,
+        "stop" : 1649601892052,
+        "duration" : 3
+      }
+    } ]
+  },
+  "a172a75e16dabdb45e7b766d99f20ee0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1014e849a2f3315c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892588,
+        "stop" : 1649601892591,
+        "duration" : 3
+      }
+    } ]
+  },
+  "5faaeb81431f60f8969b6279cb698f11" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "df021baa2eee0fdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891890,
+        "stop" : 1649601891895,
+        "duration" : 5
+      }
+    } ]
+  },
+  "37e3df0802591eb4cbde44162f694c82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dd6dbee39e85854a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892526,
+        "stop" : 1649601892530,
+        "duration" : 4
+      }
+    } ]
+  },
+  "8637585d5861d9d5d2206d3486e082e1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1c5968023ed47b37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891828,
+        "stop" : 1649601891831,
+        "duration" : 3
+      }
+    } ]
+  },
+  "81b1787f3f67ca9f57dd706a2e09ed86" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a4c296390605341a",
+      "status" : "passed",
+      "statusDetails" : "XPASS Ответ от сервера не соответствует ТЗ",
+      "time" : {
+        "start" : 1649601892439,
+        "stop" : 1649601892442,
+        "duration" : 3
+      }
+    } ]
+  },
+  "da1b89b225f70f0c24d6843758074ba5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ee646c29b1ea7bdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891921,
+        "stop" : 1649601891924,
+        "duration" : 3
+      }
+    } ]
+  },
+  "5e5265ec3e75f69a2f2b2f552d6891a3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "122e2283281e89ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892574,
+        "stop" : 1649601892576,
+        "duration" : 2
+      }
+    } ]
+  },
+  "35b2e7b1e40435df973b867c7c88ce07" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "30e1000ef6b3c679",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891978,
+        "stop" : 1649601891982,
+        "duration" : 4
+      }
+    } ]
+  },
+  "24616a4fdbbc408030f02dbb1977a264" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6f7ad8baf85a3d2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892558,
+        "stop" : 1649601892561,
+        "duration" : 3
+      }
+    } ]
+  },
+  "908ba77423dcdf48c6102cf367b6c6df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f99560b927efd208",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891795,
+        "stop" : 1649601891799,
+        "duration" : 4
+      }
+    } ]
+  },
+  "9df46f876aa8b2a5cfc5ad60a1785448" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ec32b08415b6f13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892656,
+        "stop" : 1649601892659,
+        "duration" : 3
+      }
+    } ]
+  },
+  "55f3ed4c56f6d01b7011802aa5b14210" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bccdb17354f6ab62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601846660,
+        "stop" : 1649601848480,
+        "duration" : 1820
+      }
+    } ]
+  },
+  "59a9f0a66949bf4ed4e363e2f61f6f3d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b9137a5137e1b988",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL Ответ от сервера не соответствует ТЗ\n\nAssertionError: assert {'result': 0, 'statusCode': 0} == {'statusCode': 4, 'statusMessage': 'Превышены максимальные значения параметров'}\n  Differing items:\n  {'statusCode': 0} != {'statusCode': 4}\n  Left contains 1 more item:\n  {'result': 0}\n  Right contains 1 more item:\n  {'statusMessage': 'Превышены максимальные значения параметров'}\n  Full diff:\n  - {'statusCode': 4, 'statusMessage': 'Превышены максимальные значения параметров'}\n  + {'result': 0, 'statusCode': 0}",
+      "time" : {
+        "start" : 1649601892370,
+        "stop" : 1649601892374,
+        "duration" : 4
+      }
+    } ]
+  },
+  "8d4b49521bd714e26aa5daa6b6b609aa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1531944f0b1fbcc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892455,
+        "stop" : 1649601892458,
+        "duration" : 3
+      }
+    } ]
+  },
+  "fe7a950c2e4baecd36d9b60e2dff02d9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "44c61f9395da77c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601891772,
+        "stop" : 1649601891777,
+        "duration" : 5
+      }
+    } ]
+  },
+  "77ca58d72f95d84c2a2d1ef2f2985f42" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84caa7dd579951ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892128,
+        "stop" : 1649601892132,
+        "duration" : 4
+      }
+    } ]
+  },
+  "f7fcb8a181b062644468bf07736252a9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3552085902da3c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601872619,
+        "stop" : 1649601879559,
+        "duration" : 6940
+      }
+    } ]
+  },
+  "aaf0523bd912d22eaab292a87f48d07e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d947d2dbe3755d53",
+      "status" : "passed",
+      "statusDetails" : "XPASS Ответ от сервера не соответствует ТЗ",
+      "time" : {
+        "start" : 1649601892385,
+        "stop" : 1649601892388,
+        "duration" : 3
+      }
+    } ]
+  },
+  "e635c1e858657a2e8e2e2123b300e464" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dc9ef79303963773",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892534,
+        "stop" : 1649601892537,
+        "duration" : 3
+      }
+    } ]
+  },
+  "4bbf35a3f1464fe13759c72fca365814" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d06d2745fd3416a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892565,
+        "stop" : 1649601892569,
+        "duration" : 4
+      }
+    } ]
+  },
+  "0e9588f3778728a61b880785abead6e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b115dbfec81921e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892695,
+        "stop" : 1649601892699,
+        "duration" : 4
+      }
+    } ]
+  },
+  "388d566e9b345538e2689b38b09154c3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "12dcd576e17b61b6",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL Ответ от сервера не соответствует ТЗ\n\nAssertionError: assert {'result': 2147483648, 'statusCode': 0} == {'statusCode': 4, 'statusMessage': 'Превышены максимальные значения параметров'}\n  Differing items:\n  {'statusCode': 0} != {'statusCode': 4}\n  Left contains 1 more item:\n  {'result': 2147483648}\n  Right contains 1 more item:\n  {'statusMessage': 'Превышены максимальные значения параметров'}\n  Full diff:\n  - {'statusCode': 4, 'statusMessage': 'Превышены максимальные значения параметров'}\n  + {'result': 2147483648, 'statusCode': 0}",
+      "time" : {
+        "start" : 1649601892354,
+        "stop" : 1649601892358,
+        "duration" : 4
+      }
+    } ]
+  },
+  "d591ae1a90bf1824195842de95980a67" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69b22dfd8156b7fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601862123,
+        "stop" : 1649601865931,
+        "duration" : 3808
+      }
+    } ]
+  },
+  "9e26f9912381702b164304379a10a37c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1be72b75891e798c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601892541,
+        "stop" : 1649601892545,
+        "duration" : 4
+      }
+    } ]
+  }
+}

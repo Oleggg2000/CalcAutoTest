@@ -1,0 +1,91 @@
+{
+  "uid" : "4635db4e1b7ce7a4",
+  "name" : "test_multiplication_good[2147483647-1]",
+  "fullName" : "tests.test_functionality#test_multiplication_good",
+  "historyId" : "5e5265ec3e75f69a2f2b2f552d6891a3",
+  "time" : {
+    "start" : 1649598827801,
+    "stop" : 1649598827805,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup_app",
+    "time" : {
+      "start" : 1649598764137,
+      "stop" : 1649598769204,
+      "duration" : 5067
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_app::0",
+    "time" : {
+      "start" : 1649598828047,
+      "stop" : 1649598830015,
+      "duration" : 1968
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_functionality"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-60Q9K2PF"
+  }, {
+    "name" : "thread",
+    "value" : "35616-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "x",
+    "value" : "2147483647"
+  }, {
+    "name" : "y",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4635db4e1b7ce7a4.json",
+  "parameterValues" : [ "2147483647", "1" ]
+}

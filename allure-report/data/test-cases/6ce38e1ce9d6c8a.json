@@ -1,0 +1,91 @@
+{
+  "uid" : "6ce38e1ce9d6c8a",
+  "name" : "test_remainder_good[-13--5]",
+  "fullName" : "tests.test_functionality#test_remainder_good",
+  "historyId" : "198bd323f73ee708461e0a81a795067b",
+  "time" : {
+    "start" : 1649598827953,
+    "stop" : 1649598827959,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup_app",
+    "time" : {
+      "start" : 1649598764137,
+      "stop" : 1649598769204,
+      "duration" : 5067
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_app::0",
+    "time" : {
+      "start" : 1649598828047,
+      "stop" : 1649598830015,
+      "duration" : 1968
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_functionality"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-60Q9K2PF"
+  }, {
+    "name" : "thread",
+    "value" : "35616-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "x",
+    "value" : "-13"
+  }, {
+    "name" : "y",
+    "value" : "-5"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ce38e1ce9d6c8a.json",
+  "parameterValues" : [ "-13", "-5" ]
+}

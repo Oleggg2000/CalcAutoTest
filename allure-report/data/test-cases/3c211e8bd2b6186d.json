@@ -1,0 +1,99 @@
+{
+  "uid" : "3c211e8bd2b6186d",
+  "name" : "test_value_error[2147483648-1-addition]",
+  "fullName" : "tests.test_functionality#test_value_error",
+  "historyId" : "4ab2298c331d1f3a2e9945e821d2e55d",
+  "time" : {
+    "start" : 1649597959218,
+    "stop" : 1649597959222,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL Ответ от сервера не соответствует ТЗ\n\nAssertionError: assert {'result': 2147483649, 'statusCode': 0} == {'statusCode': 4, 'statusMessage': 'Превышены максимальные значения параметров'}\n  Differing items:\n  {'statusCode': 0} != {'statusCode': 4}\n  Left contains 1 more item:\n  {'result': 2147483649}\n  Right contains 1 more item:\n  {'statusMessage': 'Превышены максимальные значения параметров'}\n  Full diff:\n  - {'statusCode': 4, 'statusMessage': 'Превышены максимальные значения параметров'}\n  + {'result': 2147483649, 'statusCode': 0}",
+  "statusTrace" : "x = 2147483648, y = 1, task = 'addition'\n\n    @pytest.mark.xfail(reason=\"Ответ от сервера не соответствует ТЗ\", strict=True)\n    @pytest.mark.parametrize(\"task\", [\"addition\", \"multiplication\", \"division\", \"remainder\"])\n    @pytest.mark.parametrize(\"x, y\", [(-2147483649, 1), (2147483648, 1), (1, -2147483649), (1, 2147483648)])\n    def test_value_error(x, y, task):\n        respond = requests.post(f\"http://{HOST}:{PORT}/api/{task}\", json={\"x\": x, \"y\": y})\n>       assert respond.json() == {'statusCode': 4, 'statusMessage': 'Превышены максимальные значения параметров'}\nE       AssertionError: assert {'result': 2147483649, 'statusCode': 0} == {'statusCode': 4, 'statusMessage': 'Превышены максимальные значения параметров'}\nE         Differing items:\nE         {'statusCode': 0} != {'statusCode': 4}\nE         Left contains 1 more item:\nE         {'result': 2147483649}\nE         Right contains 1 more item:\nE         {'statusMessage': 'Превышены максимальные значения параметров'}\nE         Full diff:\nE         - {'statusCode': 4, 'statusMessage': 'Превышены максимальные значения параметров'}\nE         + {'result': 2147483649, 'statusCode': 0}\n\ntest_functionality.py:20: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup_app",
+    "time" : {
+      "start" : 1649597897212,
+      "stop" : 1649597902123,
+      "duration" : 4911
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_app::0",
+    "time" : {
+      "start" : 1649597959878,
+      "stop" : 1649597961967,
+      "duration" : 2089
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail(reason='Ответ от сервера не соответствует ТЗ', strict=True)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_functionality"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-60Q9K2PF"
+  }, {
+    "name" : "thread",
+    "value" : "4580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "task",
+    "value" : "'addition'"
+  }, {
+    "name" : "x",
+    "value" : "2147483648"
+  }, {
+    "name" : "y",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail(reason='Ответ от сервера не соответствует ТЗ', strict=True)" ]
+  },
+  "source" : "3c211e8bd2b6186d.json",
+  "parameterValues" : [ "'addition'", "2147483648", "1" ]
+}

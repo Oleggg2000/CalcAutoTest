@@ -1,0 +1,134 @@
+{
+  "uid" : "ee646c29b1ea7bdb",
+  "name" : "test_post_error_code_2[json2-remainder]",
+  "fullName" : "tests.test_error_codes#test_post_error_code_2",
+  "historyId" : "da1b89b225f70f0c24d6843758074ba5",
+  "time" : {
+    "start" : 1649601891921,
+    "stop" : 1649601891924,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup_app",
+    "time" : {
+      "start" : 1649601832363,
+      "stop" : 1649601837215,
+      "duration" : 4852
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_app::0",
+    "time" : {
+      "start" : 1649601892756,
+      "stop" : 1649601894516,
+      "duration" : 1760
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "438b6eba3afea2fd",
+      "name" : "!!!FINISH IT!!!",
+      "source" : "438b6eba3afea2fd.gif",
+      "type" : "image/gif",
+      "size" : 7151672
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "ERROR=2 check"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_error_codes"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-60Q9K2PF"
+  }, {
+    "name" : "thread",
+    "value" : "26948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_error_codes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "json",
+    "value" : "{}"
+  }, {
+    "name" : "task",
+    "value" : "'remainder'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "44882f40ca070dc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601496387,
+        "stop" : 1649601496391,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "4c22afcb132ca06d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649600775044,
+        "stop" : 1649600775047,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "74cc422bc51ebf7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649598827059,
+        "stop" : 1649598827062,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "69a3f4ff1e840627",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649597958878,
+        "stop" : 1649597958881,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee646c29b1ea7bdb.json",
+  "parameterValues" : [ "{}", "'remainder'" ]
+}

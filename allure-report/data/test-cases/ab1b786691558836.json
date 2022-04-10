@@ -1,0 +1,108 @@
+{
+  "uid" : "ab1b786691558836",
+  "name" : "test_zero_division_error[1-0-remainder]",
+  "fullName" : "tests.test_functionality#test_zero_division_error",
+  "historyId" : "3cdbae74e4730cf3ae2bd7bc61185fc2",
+  "time" : {
+    "start" : 1649600775883,
+    "stop" : 1649600775887,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL Статус-код не соответствует ТЗ\n\nAssertionError: assert {'statusCode': 8, 'statusMessage': 'Ошибка вычисления'} == {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\n  Common items:\n  {'statusMessage': 'Ошибка вычисления'}\n  Differing items:\n  {'statusCode': 8} != {'statusCode': 1}\n  Full diff:\n  - {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\n  ?                ^\n  + {'statusCode': 8, 'statusMessage': 'Ошибка вычисления'}\n  ?                ^",
+  "statusTrace" : "x = 1, y = 0, task = 'remainder'\n\n    @allure.feature(\"ERROR=1 check\")\n    @pytest.mark.xfail(reason=\"Статус-код не соответствует ТЗ\")\n    @pytest.mark.parametrize(\"x, y, task\", [(1, 0, \"division\"), (1, 0, \"remainder\")])\n    def test_zero_division_error(x, y, task):\n        respond = requests.post(f\"http://{HOST}:{PORT}/api/{task}\", json={\"x\": x, \"y\": y})\n>       assert respond.json() == {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\nE       AssertionError: assert {'statusCode': 8, 'statusMessage': 'Ошибка вычисления'} == {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\nE         Common items:\nE         {'statusMessage': 'Ошибка вычисления'}\nE         Differing items:\nE         {'statusCode': 8} != {'statusCode': 1}\nE         Full diff:\nE         - {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}\nE         ?                ^\nE         + {'statusCode': 8, 'statusMessage': 'Ошибка вычисления'}\nE         ?                ^\n\ntest_functionality.py:73: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup_app",
+    "time" : {
+      "start" : 1649600715356,
+      "stop" : 1649600720222,
+      "duration" : 4866
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_app::0",
+    "time" : {
+      "start" : 1649600775896,
+      "stop" : 1649600777616,
+      "duration" : 1720
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5964041eda4f3a20",
+      "name" : "!!!FINISH IT!!!",
+      "source" : "5964041eda4f3a20.gif",
+      "type" : "image/gif",
+      "size" : 28
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "ERROR=1 check"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail(reason='Статус-код не соответствует ТЗ')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_functionality"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-60Q9K2PF"
+  }, {
+    "name" : "thread",
+    "value" : "11156-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "task",
+    "value" : "'remainder'"
+  }, {
+    "name" : "x",
+    "value" : "1"
+  }, {
+    "name" : "y",
+    "value" : "0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail(reason='Статус-код не соответствует ТЗ')" ]
+  },
+  "source" : "ab1b786691558836.json",
+  "parameterValues" : [ "'remainder'", "1", "0" ]
+}

@@ -1,0 +1,137 @@
+{
+  "uid" : "498d418db8d50006",
+  "name" : "test_multiplication_good[1--2147483648]",
+  "fullName" : "tests.test_functionality#test_multiplication_good",
+  "historyId" : "19a155b5aaa6dbec3e18dd21a26e003d",
+  "time" : {
+    "start" : 1649601892582,
+    "stop" : 1649601892584,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup_app",
+    "time" : {
+      "start" : 1649601832363,
+      "stop" : 1649601837215,
+      "duration" : 4852
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_app::0",
+    "time" : {
+      "start" : 1649601892756,
+      "stop" : 1649601894516,
+      "duration" : 1760
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "438b6eba3afea2fd",
+      "name" : "!!!FINISH IT!!!",
+      "source" : "438b6eba3afea2fd.gif",
+      "type" : "image/gif",
+      "size" : 7151672
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "multiplication"
+  }, {
+    "name" : "feature",
+    "value" : "GOOD check"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_functionality"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-60Q9K2PF"
+  }, {
+    "name" : "thread",
+    "value" : "26948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "x",
+    "value" : "1"
+  }, {
+    "name" : "y",
+    "value" : "-2147483648"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ab0c7498ab899b60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601497056,
+        "stop" : 1649601497059,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "21fbc3fc8bc9d1e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649600775708,
+        "stop" : 1649600775711,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "703f5f7e3cdd69b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649598827811,
+        "stop" : 1649598827815,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "188574a0cfd287c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649597959663,
+        "stop" : 1649597959667,
+        "duration" : 4
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "498d418db8d50006.json",
+  "parameterValues" : [ "1", "-2147483648" ]
+}

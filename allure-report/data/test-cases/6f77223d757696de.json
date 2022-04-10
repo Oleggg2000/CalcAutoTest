@@ -1,0 +1,201 @@
+{
+  "uid" : "6f77223d757696de",
+  "name" : "test_launching[Калькулятор не запущен]",
+  "fullName" : "tests.test_app#test_launching",
+  "historyId" : "10f5e0ad89868b5c5021190d3b1241f5",
+  "time" : {
+    "start" : 1649601848484,
+    "stop" : 1649601852279,
+    "duration" : 3795
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup_app",
+    "time" : {
+      "start" : 1649601832363,
+      "stop" : 1649601837215,
+      "duration" : 4852
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup_app",
+    "time" : {
+      "start" : 1649601837235,
+      "stop" : 1649601838883,
+      "duration" : 1648
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Запущен на 127.0.0.1:17678",
+      "time" : {
+        "start" : 1649601848484,
+        "stop" : 1649601852278,
+        "duration" : 3794
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6299b05005d2b0c3",
+      "name" : "stdout",
+      "source" : "6299b05005d2b0c3.txt",
+      "type" : "text/plain",
+      "size" : 388
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup_app::0",
+    "time" : {
+      "start" : 1649601892756,
+      "stop" : 1649601894516,
+      "duration" : 1760
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "438b6eba3afea2fd",
+      "name" : "!!!FINISH IT!!!",
+      "source" : "438b6eba3afea2fd.gif",
+      "type" : "image/gif",
+      "size" : 7151672
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  }, {
+    "name" : "setup_app::0",
+    "time" : {
+      "start" : 1649601894520,
+      "stop" : 1649601896312,
+      "duration" : 1792
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "78d082c396d7d5d5",
+      "name" : "!!!FINISH IT!!!",
+      "source" : "78d082c396d7d5d5.gif",
+      "type" : "image/gif",
+      "size" : 7151672
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "CLI check"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_app"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-60Q9K2PF"
+  }, {
+    "name" : "thread",
+    "value" : "26948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "'Веб-калькулятор не запущен. Используйте команду \"start\"\r\n'"
+  }, {
+    "name" : "shell_command",
+    "value" : "'cd .. & webcalculator.exe restart'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9d9c52312a72f229",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649601452231,
+        "stop" : 1649601456220,
+        "duration" : 3989
+      }
+    }, {
+      "uid" : "3f89b53ebde5e2e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649600731807,
+        "stop" : 1649600735558,
+        "duration" : 3751
+      }
+    }, {
+      "uid" : "3cc1503a915bfeb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649598782108,
+        "stop" : 1649598786110,
+        "duration" : 4002
+      }
+    }, {
+      "uid" : "8c2f8ca152b3bbcd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649597913431,
+        "stop" : 1649597917311,
+        "duration" : 3880
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6f77223d757696de.json",
+  "parameterValues" : [ "'Веб-калькулятор не запущен. Используйте команду \"start\"\r\n'", "'cd .. & webcalculator.exe restart'" ]
+}

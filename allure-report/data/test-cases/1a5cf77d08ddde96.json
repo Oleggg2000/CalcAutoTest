@@ -1,0 +1,98 @@
+{
+  "uid" : "1a5cf77d08ddde96",
+  "name" : "Проверка работоспособности GET метода",
+  "fullName" : "tests.test_APImethods#test_get_methods",
+  "historyId" : "0eca90a02fde489131f46d304efe1c3b",
+  "time" : {
+    "start" : 1649600720222,
+    "stop" : 1649600720227,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup_app",
+    "time" : {
+      "start" : 1649600715356,
+      "stop" : 1649600720222,
+      "duration" : 4866
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_app::0",
+    "time" : {
+      "start" : 1649600775896,
+      "stop" : 1649600777616,
+      "duration" : 1720
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5964041eda4f3a20",
+      "name" : "!!!FINISH IT!!!",
+      "source" : "5964041eda4f3a20.gif",
+      "type" : "image/gif",
+      "size" : 28
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Smoke tests"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_APImethods"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-60Q9K2PF"
+  }, {
+    "name" : "thread",
+    "value" : "11156-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_APImethods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Полезная ссылочка)))",
+    "url" : "https://docs.pytest.org/en/6.2.x/example/markers.html",
+    "type" : "link"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a5cf77d08ddde96.json",
+  "parameterValues" : [ ]
+}
