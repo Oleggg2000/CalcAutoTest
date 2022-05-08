@@ -1,7 +1,7 @@
-import requests
-import pytest
 import allure
-from tests.config import HOST, PORT
+import requests
+
+from config import HOST, PORT
 
 
 # Testing GET method structure
@@ -27,7 +27,3 @@ def test_post_method():
 def test_options_methods():
     respond = requests.options(f"http://{HOST}:{PORT}")
     assert respond.headers["Access-Control-Request-Method"] == 'POST, GET, OPTIONS'
-
-
-if __name__ == "__main__":
-    pytest.main()

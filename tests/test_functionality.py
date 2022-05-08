@@ -1,7 +1,8 @@
 import allure
 import pytest
 import requests
-from tests.config import HOST, PORT
+
+from config import HOST, PORT
 
 
 # Validation input values. Only integers are allowed!
@@ -71,7 +72,3 @@ def test_remainder_good(x, y):
 def test_zero_division_error(x, y, task):
     respond = requests.post(f"http://{HOST}:{PORT}/api/{task}", json={"x": x, "y": y})
     assert respond.json() == {'statusCode': 1, 'statusMessage': 'Ошибка вычисления'}
-
-
-if __name__ == "__main__":
-    pytest.main()

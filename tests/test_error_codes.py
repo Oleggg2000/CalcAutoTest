@@ -1,7 +1,7 @@
 import pytest
 import allure
 import requests
-from tests.config import HOST, PORT
+from config import HOST, PORT
 
 
 # Test GET method raising statusCode:5
@@ -34,7 +34,3 @@ def test_post_error_code_5_2(task):
 def test_post_error_code_2(task, json):
     respond = requests.post(f"http://{HOST}:{PORT}/api/{task}", json=json)
     assert respond.json() == {'statusCode': 2, 'statusMessage': 'Не указаны необходимые параметры'}
-
-
-if __name__ == "__main__":
-    pytest.main()

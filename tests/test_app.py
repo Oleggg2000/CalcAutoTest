@@ -1,7 +1,7 @@
-import allure
 import requests
+
+from config import HOST, PORT
 from conftest import *
-from tests.config import HOST, PORT
 
 
 # Testing defaults parameters (start, stop, restart)
@@ -45,11 +45,3 @@ def test_launching_with_params(shell_command, host, port, result):
         except Exception as e:
             print(e)
             assert cmdline(shell_command).decode('cp1251') == result
-
-
-if __name__ == "__main__":
-    pytest.main()
-
-
-
-
